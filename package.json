@@ -1,0 +1,12 @@
+{
+  "name": "proprizen-support",
+  "version": "1.0.0",
+  "description": "Page de support PropriZen",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve -s ."
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}
