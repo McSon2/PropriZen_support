@@ -4,7 +4,7 @@
   "description": "Page de support PropriZen",
   "main": "index.js",
   "scripts": {
-    "start": "serve -s ."
+    "start": "serve -s . --config serve.json"
   },
   "dependencies": {
     "serve": "^14.2.1"
