@@ -2,11 +2,11 @@
   "name": "proprizen-support",
   "version": "1.0.0",
   "description": "Page de support PropriZen",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "serve -s . --config serve.json"
+    "start": "node server.js"
   },
   "dependencies": {
-    "serve": "^14.2.1"
+    "express": "^4.18.2"
   }
 }
