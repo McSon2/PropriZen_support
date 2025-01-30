@@ -18,6 +18,10 @@ app.get("/privacy-policy", (req, res) => {
   res.sendFile(path.join(__dirname, "privacy-policy.html"));
 });
 
+app.get("/terms-of-use", (req, res) => {
+  res.sendFile(path.join(__dirname, "terms-of-use.html"));
+});
+
 // Gérer les 404
 app.use((req, res) => {
   res.status(404).sendFile(path.join(__dirname, "index.html"));
